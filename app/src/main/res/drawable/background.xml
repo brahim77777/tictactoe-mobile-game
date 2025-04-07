@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base white background -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Dot pattern overlay using a tiled bitmap -->
+    <item>
+        <bitmap
+            android:src="@drawable/dot_tile"
+            android:tileMode="repeat" />
+    </item>
+</layer-list>

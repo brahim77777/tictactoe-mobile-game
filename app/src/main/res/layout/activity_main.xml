@@ -4,6 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
     android:gravity="center"
     >
@@ -11,61 +12,121 @@
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
+    android:layout_marginHorizontal="10dp"
     >
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginVertical="20dp"
         android:id="@+id/i1"
         android:src="@drawable/img"/>
+
+
+
+
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="#0D0B0B" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/i2"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="20dp"
         android:src="@drawable/img"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="#0D0B0B" />
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginLeft="30dp"
         android:id="@+id/i3"
         android:src="@drawable/img"/></LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="#0D0B0B"
+        />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginHorizontal="10dp"
         >
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginRight="30dp"
             android:id="@+id/i4"
             android:src="@drawable/img"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#0D0B0B" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="20dp"
             android:id="@+id/i5"
             android:src="@drawable/img"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#0D0B0B" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/i6"
+            android:layout_marginLeft="30dp"
+            android:layout_marginVertical="20dp"
             android:src="@drawable/img"/></LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="#0D0B0B"
+        />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginHorizontal="10dp"
         >
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/i7"
+            android:layout_marginVertical="20dp"
+            android:layout_marginRight="30dp"
             android:src="@drawable/img"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#0D0B0B" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="20dp"
             android:id="@+id/i8"
             android:src="@drawable/img"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#0D0B0B" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/i9"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="30dp"
             android:src="@drawable/img"/></LinearLayout>
 </LinearLayout>
