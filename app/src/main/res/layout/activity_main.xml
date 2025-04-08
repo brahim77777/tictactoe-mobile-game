@@ -134,4 +134,9 @@
             android:layout_marginVertical="20dp"
             android:layout_marginLeft="30dp"
             android:src="@drawable/img"/></LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/restart"
+        android:text="Restart"/>
 </LinearLayout>
